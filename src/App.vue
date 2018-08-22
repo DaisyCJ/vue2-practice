@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <!-- 路由匹配到的组件将渲染在这里 -->
     <router-view/>
   </div>
 </template>
@@ -12,11 +11,22 @@ export default {
 </script>
 
 <style>
+/* html {
+  width: 100%;
+  height: 100%;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   margin-top: 60px;
+  width: 100%;
+  height: 100%;
 }
 </style>
